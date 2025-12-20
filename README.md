@@ -1,1 +1,1 @@
-# Uniquement dédié à l'apprentissage 😘
+# Uniquement dédié à l'apprentissage Frontend JavaScript😘
