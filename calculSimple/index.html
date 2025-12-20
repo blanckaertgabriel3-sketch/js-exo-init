@@ -9,21 +9,7 @@
 	<input type="text" id="couleur" placeholder="Écris une couleur en anglais !!!!" style="padding: 5px 20px;" size="30">
 	<button id="valider">Valider</button>
 	<p id="message"></p>
-	<script> 
-		const bouton = document.getElementById("valider");
-		
-		bouton.addEventListener("click", function() { 
-			const couleur = document.getElementById("couleur").value
-
-			const nombre1 = Number(prompt("Entrez le nombre 1 : "));
-			const nombre2 = Number(prompt("Entrez le nombre 2 : "));
-			const resultat = nombre1 + nombre2;
-			
-			const message = document.getElementById("message");
-			message.textContent = nombre1 + " + " + nombre2 + " = " + resultat;
-			
-			message.style.backgroundColor = couleur;
-		});
-	</script>
+	
+	<script src="script.js"></script>
 </body>
 </html>
